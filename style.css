@@ -2,4 +2,50 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "Norse Bold";
+  src: url(assets/Norse-Bold.otf);
+}
+
+/* Side banner */
+.side {
+  background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 33vw;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 20vh;
+  width: inherit;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 125px;
+}
+
+.logo-name {
+  font-family: "Norse Bold";
+  font-size: 100px;
+}
+
+.credits {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1vh;
 }
